@@ -9,24 +9,31 @@ list-style-type: none;
 margin: 0px 0px;
 padding: 20px 5px 25px 0;
 }
+
+#listview{
+  float: left;
+  display: inline;
+}
+
 .listItem {
     float: left;
     margin: 5px 0 0 5px;
     font-family: "Arial";
   }
 
-
+.musicstuff{
+  float: right;
+  display: inline-block;
+}
 
 .genre {
   box-sizing: border-box;
   border: 2px solid black;
   background-color: #4DD7FA;
-  float: left;
+  float: right;
   width: 25%;
   /*margin-top: 2px;*/
   height: 400px;
-
-
 }
 
 .button {
@@ -62,14 +69,6 @@ display: inline;
   padding-left: 4px;
 }
 
-/*ul > li {
-  display: inline;
-  list-style-type: none;
-  margin: 5px 15px 0 15px;
-  background-color: goldenrod;
-  padding: 5px;
-}*/
-
 .visible {
   display: block;
 }
@@ -78,7 +77,3 @@ display: inline;
   display: none;
 }
 
-/*body {
-  font-size: 2em;
-  background-color: 
-}*/
