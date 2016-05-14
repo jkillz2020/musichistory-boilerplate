@@ -10,11 +10,6 @@ addLink.addEventListener("click", function() {
   addView.classList.add("visible");
   addView.classList.remove("hidden");
 
-// addMusic.addEventListener("click", function(event))
+
 });
 
-
-// function addSong() {
-//   document.getElementById("add-view")
-//   document.
-// }

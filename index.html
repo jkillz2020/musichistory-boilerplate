@@ -2,14 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Music History Version 3</title>
+  <title>Music History Version 5</title>
   <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 </head>
 <body>
 <nav>
-  <ul class ="nav">
-  <li class="inlineMiddle" class="listItem"><a href="#" id="link-list">List Music</a></li>
-  <li class="inlineMiddle" class="listItem"><a href="#" id="link-add">Add Music</a></li>
+  <ul class="nav nav-pills">
+  <li role="presentation" class="active" class="listItem"><a href="#" id="link-list">List Music</a></li>
+  <li role="presentation" class="listItem"><a href="#" id="link-add">Add Music</a></li>
+</ul>
 </ul>
 </nav>
 
@@ -27,10 +29,6 @@
 <br>
         <select id="artist" name="artist">
             <option value="wu_tang">Wu-Tang Clan</option>
-            <option value="run_the_jewels">Run the Jewels</option>
-            <option value="mumford_sons">Mumford & Sons</option>
-            <option value="the_xx">The XX</option>
-            <option value="pretty_lights">Pretty Lights</option>
         </select>
 
 <br>
@@ -39,17 +37,13 @@
 <br>
         <select id="album" name="album">
             <option value="enter_the_wu_tang">Enter the Wu-Tang (36 Chambers)</option>
-            <option value="wilder_mind">Wilder Mind</option>
-            <option value="coexist">Coexist</option>
-            <option value="xx">XX</option>
-            <option value="filling_up_the_city">Filling Up the City Skies</option>
         </select>
 <br>
 <br>
         <label>Genre:</label>
         <br> 
         <br>
-          <table>
+          <table class="genre-table">
             <tr>
               <td><input type="checkbox" id="rock" value="genre_rock" name="genre_rock"><label class="" for="rock">Rock</label></td>
               <td><input type="checkbox" id="pop" value="genre_pop" name="genre_pop"><label class="" for="pop">Pop</label></td>
@@ -71,7 +65,7 @@
           </div>
         </section>
 
-        <section class=musicstuff id="songlist">
+        <section class="musicstuff" id="songlist">
         </section>
 
 <section id="add-view">
@@ -88,6 +82,8 @@
 <script type="text/javascript" src="list.js"></script>
 <script type="text/javascript" src="add.js"></script>
 <script type="text/javascript" src="musichistoryv2.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </body>
 </html>
 

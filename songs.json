@@ -1,0 +1,33 @@
+{
+  "songs": {
+    "song1": {
+      "Title": "Down Rodeo",
+      "Artist": "Rage Against The Machine",
+      "Album": "Evil Empire"
+  }, 
+    "song2": {
+      "Title": "H",
+      "Artist": "Tool",
+      "Album": "Aenima"
+  }, 
+    "song3":  {
+      "Title": "4th Chamber",
+      "Artist": "GZA",
+      "Album": "Liquid Swords"
+  
+  }, 
+    "song4": {
+      "Title": "Hot Like Sauce",
+      "Artist": "Pretty Lights",
+      "Album": "Filling Up The City Skies"
+  }, 
+    "song5": {
+      "Title": "Late Night Tip",
+      "Artist": "Three Six Mafia",
+      "Album": "The End"
+    }
+  }
+}
+
+
+    

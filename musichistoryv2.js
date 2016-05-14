@@ -1,26 +1,46 @@
 "use strict"
 let songs = [];
+let moresongs = [];
+let placeInDom = (function () {
+ 
+  return {
+    loadSongs: function (callbackToInvoke) {
+      let loader = new XMLHttpRequest();
+      loader.open("GET", "songs.json")//tell loader where to go
+      loader.send();//execute loader
+      loader.addEventListener("load", function () {
+        // Set the value of the private array
+        songs = JSON.parse(this.responseText).songs;
+        
+        // Invoke the callback function so that the caller knows
+        // that the process is complete. Make sure to pass the 
+        callbackToInvoke(songs);
+      });
+    
 
-songs[songs.length] = "Legs > by Z*ZTop on the album Eliminator";
-songs[songs.length] = "The Logical Song > by Supertr@amp on the album Breakfast in America";
-songs[songs.length] = "Another Brick in the Wall > by Pink Floyd on the album The Wall";
-songs[songs.length] = "Welco(me to the Jungle > by Guns & Roses on the album Appetite for Destruction";
-songs[songs.length] = "Ironi!c > by Alanis Moris*ette on the album Jagged Little Pill";
+      }
+    }
+}
 
-songs.unshift("Everything In Its Right Place > by Radiohead on the album Kid A");
-songs.push("Down Rodeo > by Rage Against the Machine on the album Evil Empire");
+    function placeInDom (songs) {
+      console.log(songs);
+      for (let song in songs) {
+        let currentSong = songs[song]
+        $(`#songlist`) .apend (`<div id='${i.id}' class='thisTrack'><h3>${i.Title}</h3><h5>${i.artist}</h5><h5>${i.album}</h5><h5>${i.genre}</h5><button type="" class="delButton">delete</button></div>`)
+          }
 
-  for(let i = 0; i < songs.length; i++){
-   songs[i] = songs[i].replace(">", "-");
-   songs[i] = songs[i].replace("!", "");
-   songs[i] = songs[i].replace("*", "");
-   songs[i] = songs[i].replace("@", "");
-   songs[i] = songs[i].replace("(", "");
+$.ajax( {
+  url: "https://mu2ik.firebaseio.com/songs/.json",
+  }).done (function (songs) {
+    placeInDom(songs);
+  });
 
 
+placeInDom();
+}
 
-document.getElementById("songlist").innerHTML += "<div>" + songs[i] + "</div>";
-};
+// document.getElementById("songlist").innerHTML += "<div>" + songs[i] + "</div>";
+
   
 
 
