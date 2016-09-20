@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<style type="text/css" src="music.css"></style>
 <head>
   <meta charset="UTF-8">
-  <title>Music History v2</title>
+  <title>Music History v3</title>
+  <link type="text/css" href="styles.css"></link>
 </head>
 <body>
+<ul>
+  <li><a href="#" id="link-home">Home</a></li>
+  <li><a href="#" id="link-list">List</a></li>
+  <li><a href="#" id="link-add">Add</a></li>
+</ul>
+
+<section id="home-view">
+  Home
+</section>
+
+<section class="hidden" id="list-view">
+  List
   <article id="songlist"></article>
-  <script type="text/javascript" src="musichistory.js"></script>
+</section>
+
+<section class="hidden" id="add-view">
+  Add
+</section>
+
+<script type="text/javascript" src="home.js"></script>
+<script type="text/javascript" src="list.js"></script>
+<script type="text/javascript" src="add.js"></script>
+<!-- <script type="text/javascript" src="musichistory.js"></script> -->
 </body>
 </html>
