@@ -4,40 +4,40 @@
       "title": "C.R.E.A.M",
       "artist": "Wu-Tang Clan",
       "album": "Enter The Wu-Tang (36 Chambers)",
-      "uid": ""
+      "uid": "UqARkwcg7BhDHw2bNo4pgWgQOmI3"
     },
     "song1": {
       "title": "Missing",
       "artist": "XX",
       "album": "Coexist",
-      "uid": ""
+      "uid": "UqARkwcg7BhDHw2bNo4pgWgQOmI3"
     },
     "song2": {
       "title": "Hot Like Sauce",
       "artist": "Pretty Lights",
       "album": "Filling Up The City Skies",
-      "uid": ""
+      "uid": "UqARkwcg7BhDHw2bNo4pgWgQOmI3"
     },
     "song3": {
       "title": "Rap God",
       "artist": "Eminem",
       "album": "The Marshall Mathers LP 2",
-      "uid": ""
+      "uid": "UqARkwcg7BhDHw2bNo4pgWgQOmI3"
     },
     "song4": {
       "title": "Know Your Enemy",
       "artist": "Rage Against The Machine",
       "album": "Rage Against The Machine",
-      "uid": ""
+      "uid": "dCzoUGxj4NWlKWTaJDPfeFQSsGw1"
     }
   },
   "users": {
     "user0": {
-      "uid": "",
+      "uid": "UqARkwcg7BhDHw2bNo4pgWgQOmI3",
       "username": "josh"
     },
     "user1": {
-      "uid": "",
+      "uid": "dCzoUGxj4NWlKWTaJDPfeFQSsGw1",
       "username": "a"
     }
   }
