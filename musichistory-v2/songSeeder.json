@@ -1,0 +1,44 @@
+{
+  "Songs": {
+    "song0": {
+      "title": "C.R.E.A.M",
+      "artist": "Wu-Tang Clan",
+      "album": "Enter The Wu-Tang (36 Chambers)",
+      "uid": ""
+    },
+    "song1": {
+      "title": "Missing",
+      "artist": "XX",
+      "album": "Coexist",
+      "uid": ""
+    },
+    "song2": {
+      "title": "Hot Like Sauce",
+      "artist": "Pretty Lights",
+      "album": "Filling Up The City Skies",
+      "uid": ""
+    },
+    "song3": {
+      "title": "Rap God",
+      "artist": "Eminem",
+      "album": "The Marshall Mathers LP 2",
+      "uid": ""
+    },
+    "song4": {
+      "title": "Know Your Enemy",
+      "artist": "Rage Against The Machine",
+      "album": "Rage Against The Machine",
+      "uid": ""
+    }
+  },
+  "users": {
+    "user0": {
+      "uid": "",
+      "username": "josh"
+    },
+    "user1": {
+      "uid": "",
+      "username": "a"
+    }
+  }
+}

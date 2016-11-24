@@ -1,0 +1,8 @@
+<div ng-repeat="song in songs">
+  <div class="col-md-3 col-md-offset-1">
+      <div class="row"><a href="#/songs/view/{{song.id}}">{{song.title}}</a></div>
+      <div class="row"><a href="#/songs/view/{{song.id}}">{{song.artist}}</a></div>
+      <div class="row"><a href="#/songs/view/{{song.id}}">{{song.album}}</a></div>
+      </div>
+      <div class="col-xs-1"><button class="btn btn-danger fa fa-trash-o" ng-click="deleteSong(song.id)"></button></div>
+  </div>

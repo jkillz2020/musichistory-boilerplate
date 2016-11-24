@@ -1,0 +1,22 @@
+<form>
+
+  <div class="form-group col-md-4 col-md-offset-1"> <!-- Title -->
+    <label for="title" class="control-label">Title</label>
+    <input type="text" class="form-control" id="first_name" name="title" placeholder="Song name" ng-model="newSong.title">
+  </div> 
+
+  <div class="form-group col-md-4 col-md-offset-1"> <!-- Artist -->
+    <label for="artist" class="control-label">Artist</label>
+    <input type="text" class="form-control" id="artist" name="artist" placeholder="Artist" ng-model="newSong.artist">
+  </div>        
+
+  <div class="form-group col-md-3 col-md-offset-1"> <!-- Album-->
+    <label for="album" class="control-label">Album</label>
+    <input type="text" class="form-control" id="album" name="album" placeholder="Album" ng-model="newSong.album">
+  </div>                  
+
+  <div class="form-group col-md-5 col-md-offset-5"> <!-- Submit Button -->
+    <button type="button" class="btn btn-danger" ng-click="addNewSong()">Add Song</button>
+  </div>     
+
+</form> 
